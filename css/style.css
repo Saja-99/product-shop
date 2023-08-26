@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section .images {
+    width: 55%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+section .other-images {
+    width: 16%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+section .other-images div {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+
+}
+section .other-images div img {
+    width: 90%;
+}
+section .main-image {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+section .main-image img {
+    width: 100%;
+}
+
+section .Product-information {
+    width: 37%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section .Product-information .product-name {
+    font-size: 17px;
+}
+section .Product-information .five-stars {
+    width: 100%;
+}
+section .Product-information .five-stars img {
+    width: 20%;
+}
+
+section .Product-information .price h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+section .Product-information .category h1, .color h1{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.color h5 {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.share h1, i {
+    font-size: 15px;
+    margin-right: 10px;
+    color: gray;
+}
+
+
+.category, .color, .share, .number, .add-to-cart, .add-to-wishlist{
+    display: flex;
+    align-items: center;
+}
+.category h1, .color span, .add-to-cart h1, .add-to-wishlist i{
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.buying {
+    width: 300px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.number {
+    width: 120px;
+    height: 100%;
+    border-radius: 50px;
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    cursor: pointer;
+}
+.number div {
+    width: 55px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.226);
+}
+.number .plus {
+    border: none;
+}
+
+.add-to-cart {
+    width: 170px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    cursor: pointer;
+}
+
+.add-to-cart h1 {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.226);
+}
+.add-to-cart i {
+    margin-left: -35px;
+}
+
+.add-to-wishlist {
+    width: 160px;
+    height: 38px;
+    justify-content: space-around;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    padding: 0 20px;
+    cursor: pointer;
+}
+.add-to-wishlist h1 {
+    font-size: 12px;
+}
